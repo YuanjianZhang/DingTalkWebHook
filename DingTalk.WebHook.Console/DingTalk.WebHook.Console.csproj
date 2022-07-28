@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>de70e118-fa30-4023-b5d0-8172ce233d9d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DingTalk.WebHook.Busi\DingTalk.WebHook.Busi.csproj" />
+    <ProjectReference Include="..\DingTalk.WebHook\DingTalk.WebHook.csproj" />
+  </ItemGroup>
+
+</Project>

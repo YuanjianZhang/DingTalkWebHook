@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DingTalk.WebHook", "DingTalk.WebHook\DingTalk.WebHook.csproj", "{DDDD9742-D7D3-48E5-8827-C0CA231AE4D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DingTalk.WebHook.Busi", "DingTalk.WebHook.Busi\DingTalk.WebHook.Busi.csproj", "{8065DDDF-0C10-48A3-B355-CE7FA0FD7329}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DingTalk.WebHook.Console", "DingTalk.WebHook.Console\DingTalk.WebHook.Console.csproj", "{2C9D24E0-8F00-4601-85D0-50552970789E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DingTalk.Common", "DingTalk.Common\DingTalk.Common.csproj", "{7003A321-4B99-465A-A8C4-FAD16B78F8CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDDD9742-D7D3-48E5-8827-C0CA231AE4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDD9742-D7D3-48E5-8827-C0CA231AE4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDD9742-D7D3-48E5-8827-C0CA231AE4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDD9742-D7D3-48E5-8827-C0CA231AE4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8065DDDF-0C10-48A3-B355-CE7FA0FD7329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8065DDDF-0C10-48A3-B355-CE7FA0FD7329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8065DDDF-0C10-48A3-B355-CE7FA0FD7329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8065DDDF-0C10-48A3-B355-CE7FA0FD7329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9D24E0-8F00-4601-85D0-50552970789E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9D24E0-8F00-4601-85D0-50552970789E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9D24E0-8F00-4601-85D0-50552970789E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9D24E0-8F00-4601-85D0-50552970789E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7003A321-4B99-465A-A8C4-FAD16B78F8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7003A321-4B99-465A-A8C4-FAD16B78F8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7003A321-4B99-465A-A8C4-FAD16B78F8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7003A321-4B99-465A-A8C4-FAD16B78F8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {189331A3-E701-4600-A35C-D4276D9CB70F}
+	EndGlobalSection
+EndGlobal
