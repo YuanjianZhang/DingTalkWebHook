@@ -56,14 +56,15 @@ do
         Console.WriteLine("推送结束！Enter 退出程序");
         if (Console.ReadKey(true).Key == ConsoleKey.Enter)
         {
-            Environment.Exit(0);
+            keeprun = false;
+            //Environment.Exit(0);
         }
     }
     catch (Exception ex)
     {
         Console.WriteLine("异常：" + ex.Message);
     }
-} while (true);
+} while (keeprun);
 
 internal class Print
 {
